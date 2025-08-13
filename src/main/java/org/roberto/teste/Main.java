@@ -51,7 +51,7 @@ public class Main {
         }));
 
         // 3.6 – Imprimir os funcionários, agrupados por função.
-        // NÃO CONSEGUI IMPRIMIR DE UMA FORMA INTERESSANTE DE IMPRIMIR OS FUNCIONARIOS AGRUPADOS DE FORMA DIFERENTE DOS DEMAIS
+        // NÃO CONSEGUI IMPRIMIR DE UMA FORMA INTERESSANTE DIFERENTE DOS DEMAIS
 
         // 3.8 – Imprimir os funcionários que fazem aniversário no mês 10 e 12.
         System.out.println("Lista dos Funcionarios que Fazem Aniversário no Mes 11 e 12");
