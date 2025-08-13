@@ -37,7 +37,7 @@ public class Main {
         ge.imprimirFuncionarios();
 
         //  3.4 – Os funcionários receberam 10% de aumento de salário, atualizar a lista de funcionários com novo valor.
-        System.out.println("Novo Salário dos funcionários");
+        System.out.println("Novo Salário dos Funcionários");
         ge.aumentarSalarioDosFuncionarios(10);
         ge.imprimirFuncionarios();
 
@@ -54,7 +54,7 @@ public class Main {
         // NÃO CONSEGUI IMPRIMIR DE UMA FORMA INTERESSANTE DIFERENTE DOS DEMAIS
 
         // 3.8 – Imprimir os funcionários que fazem aniversário no mês 10 e 12.
-        System.out.println("Lista dos Funcionarios que Fazem Aniversário no Mes 11 e 12");
+        System.out.println("Lista dos Funcionários que Fazem Aniversário no Mês 11 e 12");
         List<Funcionario> listaFuncionariosAniversariantes = funcionarios.stream()
                 .filter(f -> f.getDataNascimento().getMonthValue() == 11 || f.getDataNascimento().getMonthValue() == 12)
                 .toList();
@@ -77,7 +77,5 @@ public class Main {
 
         // 3.12 Imprimir quantos salários mínimos ganha cada funcionário, considerando que o salário mínimo é R$1212.00.
         ge.imprimeQtdSalarioMinimo();
-
-
     }
 }
