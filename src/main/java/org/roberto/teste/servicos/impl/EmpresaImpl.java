@@ -11,5 +11,8 @@ public interface EmpresaImpl {
     public void imprimirFuncionarios();
 
     public void imprimirFuncionarios(List<Funcionario> funcionarios);
+
     public void aumentarSalarioDosFuncionarios(Integer valorPorcentagem);
+
+    public String getSalarioTotalDosFuncionarios();
 }
